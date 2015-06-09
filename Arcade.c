@@ -66,6 +66,7 @@ task main()
 			motor[backRight] = y2;	
 		}
 
+		// Start Button toggles between tank and arcade
 		if (joy1Btn(startButton))
 		{
 			isArcade = 0 ? 1 : 0;
